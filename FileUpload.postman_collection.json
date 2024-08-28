@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "d14808cd-b144-4c8c-b1c4-b78444b1df90",
+		"name": "FileUpload",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37067541"
+	},
+	"item": [
+		{
+			"name": "fileupload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Aksha/Postman_Collections/Sample_file.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{fileUrl}}/post",
+					"host": [
+						"{{fileUrl}}"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
